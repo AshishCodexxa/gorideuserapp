@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.elluminati.eber">
+    package="com.goride.user">
 
     <queries>
         <!-- Open links from app to browser -->
@@ -59,7 +59,7 @@
     <!-- Allows changing locales -->
 
     <application
-        android:name=".EberApp"
+        android:name="com.goride.user.EberApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -67,14 +67,14 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".BookingDetailActivity"
+            android:name="com.goride.user.BookingDetailActivity"
             android:exported="false" />
         <activity
-            android:name=".AddFavouriteDriverActivity"
+            android:name="com.goride.user.AddFavouriteDriverActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateVisible|adjustPan" />
         <activity
-            android:name=".FavouriteDriverActivity"
+            android:name="com.goride.user.FavouriteDriverActivity"
             android:screenOrientation="portrait" />
 
         <uses-library
@@ -82,7 +82,7 @@
             android:required="false" />
 
         <activity
-            android:name=".SplashScreenActivity"
+            android:name="com.goride.user.SplashScreenActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
@@ -95,7 +95,7 @@
         </activity>
 
         <service
-            android:name=".FcmMessagingService"
+            android:name="com.goride.user.FcmMessagingService"
             android:exported="true">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
@@ -107,47 +107,47 @@
             android:value="AIzaSyBvSr20xmwuSnNBvbagsmh-Dp6zZXhZp3I" />
 
         <activity
-            android:name=".MainDrawerActivity"
+            android:name="com.goride.user.MainDrawerActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name=".ReferralEnterActivity"
+            android:name="com.goride.user.ReferralEnterActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
-            android:name=".PaymentActivity"
+            android:name="com.goride.user.PaymentActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".SplitPaymentActivity"
+            android:name="com.goride.user.SplitPaymentActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".ProfileActivity"
+            android:name="com.goride.user.ProfileActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
-            android:name=".TripHistoryActivity"
+            android:name="com.goride.user.TripHistoryActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
-            android:name=".TripHistoryDetailActivity"
+            android:name="com.goride.user.TripHistoryDetailActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
-            android:name=".ReferralDisplayActivtiy"
+            android:name="com.goride.user.ReferralDisplayActivtiy"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
-            android:name=".BookingActivity"
+            android:name="com.goride.user.BookingActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name=".SettingActivity"
+            android:name="com.goride.user.SettingActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
-            android:name=".DocumentActivity"
+            android:name="com.goride.user.DocumentActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
@@ -187,54 +187,54 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".DestinationSelectionActivity"
+            android:name="com.goride.user.DestinationSelectionActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ContactUsActivity"
+            android:name="com.goride.user.ContactUsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.goride.user.MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
-            android:name=".LoginActivity"
+            android:name="com.goride.user.LoginActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".OtpVerifyActivity"
+            android:name="com.goride.user.OtpVerifyActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".RegisterActivity"
+            android:name="com.goride.user.RegisterActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".EnterPasswordActivity"
+            android:name="com.goride.user.EnterPasswordActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ForgotPasswordActivity"
+            android:name="com.goride.user.ForgotPasswordActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".NewPasswordActivity"
+            android:name="com.goride.user.NewPasswordActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".WalletDetailActivity"
+            android:name="com.goride.user.WalletDetailActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".WalletHistoryActivity"
+            android:name="com.goride.user.WalletHistoryActivity"
             android:screenOrientation="portrait" />
 <!--        <activity-->
 <!--            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"-->
 <!--            android:theme="@style/Base.Theme.AppCompat" />-->
         <activity
-            android:name=".AddCardActivity"
+            android:name="com.goride.user.AddCardActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ChatActivity"
+            android:name="com.goride.user.ChatActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".PromotionActivity"
+            android:name="com.goride.user.PromotionActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".PaystackPaymentActivity"
+            android:name="com.goride.user.PaystackPaymentActivity"
             android:screenOrientation="portrait" />
 
         <meta-data

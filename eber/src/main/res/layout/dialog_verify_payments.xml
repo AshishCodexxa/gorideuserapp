@@ -16,7 +16,7 @@
         android:background="@color/color_app_theme_bg"
         android:orientation="vertical">
 
-        <com.elluminati.eber.components.MyAppTitleFontTextView
+        <com.goride.user.components.MyAppTitleFontTextView
             android:id="@+id/tvDialogTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -27,7 +27,7 @@
             android:textColor="@color/color_app_text_dark"
             android:textSize="@dimen/size_general" />
 
-        <com.elluminati.eber.components.MyFontTextView
+        <com.goride.user.components.MyFontTextView
             android:id="@+id/tvDialogMessage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/eg_1234">
 
-            <com.elluminati.eber.components.MyFontEdittextView
+            <com.goride.user.components.MyFontEdittextView
                 android:id="@+id/etPin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <com.elluminati.eber.components.MyFontButton
+            <com.goride.user.components.MyFontButton
                 android:id="@+id/btnEnable"
                 android:layout_width="@dimen/dialog_button_size"
                 android:layout_height="wrap_content"
@@ -75,7 +75,7 @@
                 android:textColor="@color/color_white"
                 android:textSize="@dimen/size_general_small">
 
-            </com.elluminati.eber.components.MyFontButton>
+            </com.goride.user.components.MyFontButton>
 
         </LinearLayout>
     </LinearLayout>

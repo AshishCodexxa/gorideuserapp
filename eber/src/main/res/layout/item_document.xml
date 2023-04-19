@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <com.elluminati.eber.components.MyFontTextView
+            <com.goride.user.components.MyFontTextView
                 android:id="@+id/tvDocumentTittle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -33,7 +33,7 @@
                 android:textColor="@color/color_black"
                 android:textSize="@dimen/size_general" />
 
-            <com.elluminati.eber.components.MyFontTextView
+            <com.goride.user.components.MyFontTextView
                 android:id="@+id/tvOption"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
         </LinearLayout>
 
 
-        <com.elluminati.eber.components.MyFontTextView
+        <com.goride.user.components.MyFontTextView
             android:id="@+id/tvIdNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
             android:textSize="@dimen/size_general_small"
             android:visibility="visible" />
 
-        <com.elluminati.eber.components.MyFontTextView
+        <com.goride.user.components.MyFontTextView
             android:id="@+id/tvExpireDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

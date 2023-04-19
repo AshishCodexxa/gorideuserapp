@@ -10,7 +10,7 @@
     android:theme="@style/ToolbarColoredBackArrow">
 
 
-    <com.elluminati.eber.components.MyAppTitleFontTextView
+    <com.goride.user.components.MyAppTitleFontTextView
         android:id="@+id/tvToolbarTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,7 +27,7 @@
         android:padding="@dimen/activity_horizontal_margin"
         android:visibility="gone" />
 
-    <com.elluminati.eber.components.MyFontButton
+    <com.goride.user.components.MyFontButton
         android:id="@+id/btnToolBar"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/activity_margin_mainscreen"

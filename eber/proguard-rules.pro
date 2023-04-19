@@ -16,4 +16,4 @@
 #   public *;
 #}
 #Model
--keep class  com.elluminati.eber.models.** { *; }
+-keep class  com.goride.user.models.** { *; }

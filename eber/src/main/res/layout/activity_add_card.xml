@@ -10,7 +10,7 @@
 
     <include layout="@layout/toolbar_app_custom" />
 
-    <com.elluminati.eber.components.MyFontEdittextView
+    <com.goride.user.components.MyFontEdittextView
         android:id="@+id/etCardHolderName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

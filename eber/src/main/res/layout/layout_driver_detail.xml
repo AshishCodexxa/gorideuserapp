@@ -69,7 +69,7 @@
             android:background="@drawable/shadow_horizontal"
             android:visibility="gone" />
 
-        <com.elluminati.eber.components.MyFontTextView
+        <com.goride.user.components.MyFontTextView
             android:id="@+id/ivBtnPromo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -114,7 +114,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <com.elluminati.eber.components.MyFontTextViewMedium
+                    <com.goride.user.components.MyFontTextViewMedium
                         android:id="@+id/tvDriverName"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -123,7 +123,7 @@
                         android:textColor="@color/color_black"
                         android:textSize="@dimen/size_general" />
 
-                    <com.elluminati.eber.components.MyFontTextView
+                    <com.goride.user.components.MyFontTextView
                         android:id="@+id/tvRatting"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -179,7 +179,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-                    <com.elluminati.eber.components.MyFontButton
+                    <com.goride.user.components.MyFontButton
                         android:id="@+id/btnTripCancel"
                         android:layout_width="wrap_content"
                         android:layout_height="30dp"
@@ -191,7 +191,7 @@
                         android:textSize="@dimen/size_label"
                         android:visibility="visible" />
 
-                    <com.elluminati.eber.components.MyFontTextView
+                    <com.goride.user.components.MyFontTextView
                         android:id="@+id/tvSplitPayment"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -210,7 +210,7 @@
                     android:orientation="horizontal"
                     android:visibility="gone">
 
-                    <com.elluminati.eber.components.MyFontTextViewMedium
+                    <com.goride.user.components.MyFontTextViewMedium
                         android:id="@+id/tvWaitTimeLabel"
                         android:layout_width="130dp"
                         android:layout_height="wrap_content"
@@ -218,7 +218,7 @@
                         android:textColor="@color/color_app_label"
                         android:textSize="@dimen/size_label" />
 
-                    <com.elluminati.eber.components.MyFontTextView
+                    <com.goride.user.components.MyFontTextView
                         android:id="@+id/tvWaitTimeValue"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -248,7 +248,7 @@
                 android:gravity="center"
                 android:orientation="vertical">
 
-                <com.elluminati.eber.components.MyFontTextViewMedium
+                <com.goride.user.components.MyFontTextViewMedium
                     android:id="@+id/tvLabelCarId"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -256,7 +256,7 @@
                     android:textColor="@color/color_app_label"
                     android:textSize="@dimen/size_label" />
 
-                <com.elluminati.eber.components.MyAppTitleFontTextView
+                <com.goride.user.components.MyAppTitleFontTextView
                     android:id="@+id/tvCarModal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -277,7 +277,7 @@
                 android:gravity="center"
                 android:orientation="vertical">
 
-                <com.elluminati.eber.components.MyFontTextViewMedium
+                <com.goride.user.components.MyFontTextViewMedium
                     android:id="@+id/tvLabelPlateNo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -285,7 +285,7 @@
                     android:textColor="@color/color_app_label"
                     android:textSize="@dimen/size_label" />
 
-                <com.elluminati.eber.components.MyAppTitleFontTextView
+                <com.goride.user.components.MyAppTitleFontTextView
                     android:id="@+id/tvCarNumber"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -312,14 +312,14 @@
                     android:gravity="center"
                     android:orientation="vertical">
 
-                    <com.elluminati.eber.components.MyFontTextViewMedium
+                    <com.goride.user.components.MyFontTextViewMedium
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/text_trip_number"
                         android:textColor="@color/color_app_label"
                         android:textSize="@dimen/size_label" />
 
-                    <com.elluminati.eber.components.MyAppTitleFontTextView
+                    <com.goride.user.components.MyAppTitleFontTextView
                         android:id="@+id/tvTripNumber"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

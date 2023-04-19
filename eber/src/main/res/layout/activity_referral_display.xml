@@ -39,7 +39,7 @@
                 android:orientation="vertical"
                 android:padding="@dimen/activity_horizontal_margin">
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -47,7 +47,7 @@
                     android:textColor="@color/color_app_text"
                     android:textSize="@dimen/size_general_small" />
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:id="@+id/tvUserReferralCode"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -67,7 +67,7 @@
                 android:orientation="vertical"
                 android:padding="@dimen/activity_horizontal_margin">
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -75,7 +75,7 @@
                     android:textColor="@color/color_app_text"
                     android:textSize="@dimen/size_general_small" />
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:id="@+id/tvUserReferralCradit"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -101,7 +101,7 @@
         android:orientation="vertical"
         android:paddingTop="@dimen/activity_horizontal_margin">
 
-        <com.elluminati.eber.components.MyFontTextView
+        <com.goride.user.components.MyFontTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/activity_horizontal_margin"
@@ -113,7 +113,7 @@
 
     </LinearLayout>
 
-    <com.elluminati.eber.components.MyFontButton
+    <com.goride.user.components.MyFontButton
         android:id="@+id/btnShareReferralCode"
         android:layout_width="@dimen/app_button_size"
         android:layout_height="wrap_content"

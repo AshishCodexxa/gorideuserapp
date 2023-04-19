@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <com.elluminati.eber.components.MyFontTextView
+            <com.goride.user.components.MyFontTextView
                 android:id="@+id/tvBookingDate"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -33,7 +33,7 @@
                 android:textColor="@color/color_app_text"
                 android:textSize="@dimen/size_general" />
 
-            <com.elluminati.eber.components.MyFontTextView
+            <com.goride.user.components.MyFontTextView
                 android:id="@+id/tvBookingTime"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -68,7 +68,7 @@
                 android:overScrollMode="never"
                 android:scrollbars="none">
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:id="@+id/tvBookingAddress"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

@@ -55,7 +55,7 @@
                         android:background="#B2B2B2" />
                 </LinearLayout>
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:id="@+id/tvPickupAddress"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -108,7 +108,7 @@
 
                 </LinearLayout>
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:id="@+id/tvDestinationAddress"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

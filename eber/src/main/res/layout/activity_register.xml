@@ -23,7 +23,7 @@
             android:paddingStart="@dimen/activity_horizontal_margin"
             android:paddingEnd="@dimen/activity_horizontal_margin">
 
-            <com.elluminati.eber.components.MyFontTextViewMedium
+            <com.goride.user.components.MyFontTextViewMedium
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/dimen_fp_margin"
@@ -42,7 +42,7 @@
                 android:orientation="horizontal">
 
 
-                <com.elluminati.eber.components.MyFontEdittextView
+                <com.goride.user.components.MyFontEdittextView
                     android:id="@+id/etFirstName"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -58,7 +58,7 @@
                     tools:text="Elluminati" />
 
 
-                <com.elluminati.eber.components.MyFontEdittextView
+                <com.goride.user.components.MyFontEdittextView
                     android:id="@+id/etLastName"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -75,7 +75,7 @@
             </LinearLayout>
 
 
-            <com.elluminati.eber.components.MyFontEdittextView
+            <com.goride.user.components.MyFontEdittextView
                 android:id="@+id/etRegisterEmailId"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -101,7 +101,7 @@
                 app:errorEnabled="false"
                 app:passwordToggleEnabled="true">
 
-                <com.elluminati.eber.components.MyFontEdittextView
+                <com.goride.user.components.MyFontEdittextView
                     android:id="@+id/etRegisterPassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -126,7 +126,7 @@
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:id="@+id/tvCountryCode"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -140,7 +140,7 @@
                     android:textSize="@dimen/size_menu_name"
                     tools:text="+00" />
 
-                <com.elluminati.eber.components.MyFontEdittextView
+                <com.goride.user.components.MyFontEdittextView
                     android:id="@+id/etContactNumber"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -171,7 +171,7 @@
                     android:layout_gravity="center_vertical" />
 
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:id="@+id/tvTerms"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

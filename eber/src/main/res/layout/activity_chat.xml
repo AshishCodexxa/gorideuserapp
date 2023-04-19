@@ -45,7 +45,7 @@
                 android:visibility="gone"
                 app:srcCompat="@drawable/ic_add_black_24dp" />
 
-            <com.elluminati.eber.components.MyFontEdittextView
+            <com.goride.user.components.MyFontEdittextView
                 android:id="@+id/messageEditText"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -56,7 +56,7 @@
                 android:textColor="@color/edit_text_color"
                 android:textSize="@dimen/size_general" />
 
-            <com.elluminati.eber.components.MyFontButton
+            <com.goride.user.components.MyFontButton
                 android:id="@+id/btnSend"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

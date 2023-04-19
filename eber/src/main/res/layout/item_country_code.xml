@@ -15,7 +15,7 @@
         android:paddingTop="@dimen/dimen_bill_line"
         android:paddingBottom="@dimen/dimen_bill_line">
 
-        <com.elluminati.eber.components.MyAppTitleFontTextView
+        <com.goride.user.components.MyAppTitleFontTextView
             android:id="@+id/tvCountryCodeDigit"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -25,7 +25,7 @@
             android:textSize="@dimen/size_general"
             tools:text="+91" />
 
-        <com.elluminati.eber.components.MyFontTextView
+        <com.goride.user.components.MyFontTextView
             android:id="@+id/tvCountryName"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

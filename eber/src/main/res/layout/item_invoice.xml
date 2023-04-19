@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <com.elluminati.eber.components.MyAppTitleFontTextView
+    <com.goride.user.components.MyAppTitleFontTextView
         android:id="@+id/tvDiscount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
             android:layout_weight="1"
             android:orientation="horizontal">
 
-            <com.elluminati.eber.components.MyFontTextView
+            <com.goride.user.components.MyFontTextView
                 android:id="@+id/tvTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -40,7 +40,7 @@
                 android:textColor="@color/color_app_text"
                 android:textSize="@dimen/size_general" />
 
-            <com.elluminati.eber.components.MyFontTextView
+            <com.goride.user.components.MyFontTextView
                 android:id="@+id/tvSubPriceValue"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -49,7 +49,7 @@
                 android:textSize="@dimen/size_label" />
         </LinearLayout>
 
-        <com.elluminati.eber.components.MyAppTitleFontTextView
+        <com.goride.user.components.MyAppTitleFontTextView
             android:id="@+id/tvPriceValue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

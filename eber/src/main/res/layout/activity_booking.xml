@@ -7,7 +7,7 @@
 
     <include layout="@layout/toolbar_app_custom" />
 
-    <com.elluminati.eber.components.MyFontTextView
+    <com.goride.user.components.MyFontTextView
         android:id="@+id/tvOngoingTrip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -40,7 +40,7 @@
             android:orientation="vertical"
             android:padding="@dimen/dimen_bill_line">
 
-            <com.elluminati.eber.components.MyFontTextView
+            <com.goride.user.components.MyFontTextView
                 android:id="@+id/tvOngoingTripStatus"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -71,7 +71,7 @@
                     android:overScrollMode="never"
                     android:scrollbars="none">
 
-                    <com.elluminati.eber.components.MyFontTextView
+                    <com.goride.user.components.MyFontTextView
                         android:id="@+id/tvOngoingTripAddress"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -84,7 +84,7 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
-    <com.elluminati.eber.components.MyFontTextView
+    <com.goride.user.components.MyFontTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/activity_horizontal_margin"
@@ -98,7 +98,7 @@
         android:textColor="@color/color_white"
         android:textSize="@dimen/size_general_small" />
 
-    <com.elluminati.eber.components.MyTitleFontTextView
+    <com.goride.user.components.MyTitleFontTextView
         android:id="@+id/tvNoItemBooking"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

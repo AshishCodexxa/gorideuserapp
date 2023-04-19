@@ -11,7 +11,7 @@
     app:behavior_peekHeight="0dp"
     app:layout_behavior="@string/bottom_sheet_behavior">
 
-    <com.elluminati.eber.components.MyFontTextView
+    <com.goride.user.components.MyFontTextView
         android:id="@+id/ivBtnPromo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <com.elluminati.eber.components.MyAppTitleFontTextView
+        <com.goride.user.components.MyAppTitleFontTextView
             android:id="@+id/tvEberNow"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
             android:textColor="@color/color_app_label"
             android:textSize="@dimen/size_general_small" />
 
-        <com.elluminati.eber.components.MyAppTitleFontTextView
+        <com.goride.user.components.MyAppTitleFontTextView
             android:id="@+id/tvEberRental"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
             android:textColor="@color/color_app_label"
             android:textSize="@dimen/size_general_small" />
 
-        <com.elluminati.eber.components.MyAppTitleFontTextView
+        <com.goride.user.components.MyAppTitleFontTextView
             android:id="@+id/tvEberRideShare"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -128,7 +128,7 @@
                         android:layout_height="wrap_content"
                         app:srcCompat="@drawable/fare_est_icon" />
 
-                    <com.elluminati.eber.components.MyFontTextView
+                    <com.goride.user.components.MyFontTextView
                         android:id="@+id/tvFareEst"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -154,7 +154,7 @@
                         android:layout_height="wrap_content"
                         app:srcCompat="@drawable/rent_car_icon" />
 
-                    <com.elluminati.eber.components.MyFontTextView
+                    <com.goride.user.components.MyFontTextView
                         android:id="@+id/tvRentalPackage"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -196,7 +196,7 @@
                             android:layout_marginBottom="3dp"
                             app:srcCompat="@drawable/cash" />
 
-                        <com.elluminati.eber.components.MyFontTextView
+                        <com.goride.user.components.MyFontTextView
                             android:id="@+id/tvPaymentType"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -233,7 +233,7 @@
                         android:layout_height="wrap_content"
                         app:srcCompat="@drawable/time" />
 
-                    <com.elluminati.eber.components.MyFontTextView
+                    <com.goride.user.components.MyFontTextView
                         android:id="@+id/tvMapEta"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -270,7 +270,7 @@
                 android:paddingBottom="@dimen/dimen_bill_line"
                 android:visibility="visible">
 
-                <com.elluminati.eber.components.MyFontButton
+                <com.goride.user.components.MyFontButton
                     android:id="@+id/btnRideNow"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -294,7 +294,7 @@
             </LinearLayout>
         </LinearLayout>
 
-        <com.elluminati.eber.components.MyFontButton
+        <com.goride.user.components.MyFontButton
             android:id="@+id/btnSelectRent"
             android:layout_width="326dp"
             android:layout_height="wrap_content"
@@ -329,7 +329,7 @@
             android:layout_gravity="center_horizontal"
             android:src="@drawable/no_service" />
 
-        <com.elluminati.eber.components.MyFontTextView
+        <com.goride.user.components.MyFontTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -341,7 +341,7 @@
             android:textStyle="bold" />
 
 
-        <com.elluminati.eber.components.MyFontTextView
+        <com.goride.user.components.MyFontTextView
             android:id="@+id/tvMessageNoService"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

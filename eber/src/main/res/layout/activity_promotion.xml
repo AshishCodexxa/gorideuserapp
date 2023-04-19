@@ -22,7 +22,7 @@
             android:contentDescription="@string/text_description"
             android:src="@drawable/user" />
 
-        <com.elluminati.eber.components.MyFontTextView
+        <com.goride.user.components.MyFontTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/text_edelivery_promotion"
@@ -31,7 +31,7 @@
 
     </LinearLayout>
 
-    <com.elluminati.eber.components.MyFontButton
+    <com.goride.user.components.MyFontButton
         android:id="@+id/btnGetApp"
         android:layout_width="@dimen/app_button_size"
         android:layout_height="wrap_content"

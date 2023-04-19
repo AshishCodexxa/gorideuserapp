@@ -22,7 +22,7 @@
         android:paddingBottom="@dimen/dimen_bill_line">
 
 
-        <com.elluminati.eber.components.MyFontTextView
+        <com.goride.user.components.MyFontTextView
             android:id="@+id/tvDriverNameDialog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <com.elluminati.eber.components.MyFontTextView
+            <com.goride.user.components.MyFontTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
@@ -68,7 +68,7 @@
 
         </LinearLayout>
 
-        <com.elluminati.eber.components.MyFontButton
+        <com.goride.user.components.MyFontButton
             android:id="@+id/btnDialogDisablePowerSaver"
             android:layout_width="@dimen/dialog_button_size"
             android:layout_height="wrap_content"

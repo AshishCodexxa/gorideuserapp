@@ -34,7 +34,7 @@
             <!--android:layout_marginEnd="@dimen/dimen_bill_line"-->
             <!--app:srcCompat="@drawable/dot_icon"/>-->
 
-            <com.elluminati.eber.components.MyFontTextView
+            <com.goride.user.components.MyFontTextView
                 android:id="@+id/tvHistoryDetailDate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
 
         </LinearLayout>
 
-        <com.elluminati.eber.components.MyFontTextView
+        <com.goride.user.components.MyFontTextView
             android:id="@+id/tvHistoryTripNumber"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -91,7 +91,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:id="@+id/tvHistoryDetailDriverName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -99,7 +99,7 @@
                     android:textColor="@color/color_black"
                     android:textSize="@dimen/size_general" />
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:id="@+id/tvHistoryTripCreateTime"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -153,7 +153,7 @@
                         android:background="#B2B2B2"/>
                 </LinearLayout>
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:id="@+id/tvFareSrc"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -203,7 +203,7 @@
 
                 </LinearLayout>
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:id="@+id/tvFareDest"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -229,7 +229,7 @@
         android:layout_gravity="center"
         android:layout_weight="1">
 
-        <com.elluminati.eber.components.CustomEventMapView
+        <com.goride.user.components.CustomEventMapView
             android:id="@+id/mapView"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />

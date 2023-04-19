@@ -17,7 +17,7 @@
         android:orientation="vertical">
 
 
-        <com.elluminati.eber.components.MyAppTitleFontTextView
+        <com.goride.user.components.MyAppTitleFontTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/activity_horizontal_margin"
@@ -35,7 +35,7 @@
             android:visibility="gone">
 
 
-            <com.elluminati.eber.components.MyFontTextView
+            <com.goride.user.components.MyFontTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -45,7 +45,7 @@
                 android:textColor="@color/color_app_text"
                 android:textSize="@dimen/size_general" />
 
-            <com.elluminati.eber.components.MyFontTextViewMedium
+            <com.goride.user.components.MyFontTextViewMedium
                 android:id="@+id/tvCancelCharge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -105,7 +105,7 @@
                 android:textSize="@dimen/size_general" />
         </RadioGroup>
 
-        <com.elluminati.eber.components.MyFontEdittextView
+        <com.goride.user.components.MyFontEdittextView
             android:id="@+id/etOtherReason"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -121,7 +121,7 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <com.elluminati.eber.components.MyFontButton
+            <com.goride.user.components.MyFontButton
                 android:id="@+id/btnIamSure"
                 android:layout_width="@dimen/dialog_button_size"
                 android:layout_height="wrap_content"
@@ -131,7 +131,7 @@
                 android:textColor="@color/color_white"
                 android:textSize="@dimen/size_general_small" />
 
-            <com.elluminati.eber.components.MyFontButton
+            <com.goride.user.components.MyFontButton
                 android:id="@+id/btnCancel"
                 android:layout_width="@dimen/dialog_button_size"
                 android:layout_height="wrap_content"

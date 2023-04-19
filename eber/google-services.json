@@ -1,41 +1,33 @@
 {
   "project_info": {
-    "project_number": "312227263749",
-    "project_id": "goride-aeb9a",
-    "storage_bucket": "goride-aeb9a.appspot.com"
+    "project_number": "979420584258",
+    "project_id": "go-ride-61dcb",
+    "storage_bucket": "go-ride-61dcb.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:312227263749:android:40c0fc4f867e19b98a736c",
+        "mobilesdk_app_id": "1:979420584258:android:4a93eb89eea0f72d4410db",
         "android_client_info": {
           "package_name": "com.goride.user"
         }
       },
       "oauth_client": [
         {
-          "client_id": "312227263749-63a15crgljim0jt2tncv8s5un3ifmuhl.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.goride.user",
-            "certificate_hash": "299ea57d8c70e88c64e3bf89a20ce17c11723c7f"
-          }
-        },
-        {
-          "client_id": "312227263749-pupg71nnqalflou6qcmqr77qjjq254qh.apps.googleusercontent.com",
+          "client_id": "979420584258-llk7apeodle3f2idni0fd0b31itoqn30.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCbM1FUEpGGqctyX2t5ElrhP5xFx_T5ldY"
+          "current_key": "AIzaSyAj01PUHED4KzvYrT6cyIQ8TePL2qVfWeo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "312227263749-pupg71nnqalflou6qcmqr77qjjq254qh.apps.googleusercontent.com",
+              "client_id": "979420584258-llk7apeodle3f2idni0fd0b31itoqn30.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

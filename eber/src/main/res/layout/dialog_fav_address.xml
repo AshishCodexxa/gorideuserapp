@@ -12,12 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.elluminati.eber.components.CustomEventMapView
+        <com.goride.user.components.CustomEventMapView
             android:id="@+id/favAddressMapView"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-        </com.elluminati.eber.components.CustomEventMapView>
+        </com.goride.user.components.CustomEventMapView>
 
 
         <LinearLayout
@@ -47,7 +47,7 @@
                 android:layout_weight="1"
                 android:gravity="center_horizontal">
 
-                <com.elluminati.eber.components.MyFontButton
+                <com.goride.user.components.MyFontButton
                     android:id="@+id/btnConfirmFavAddress"
                     android:layout_width="@dimen/app_button_size"
                     android:layout_height="wrap_content"
@@ -109,7 +109,7 @@
                     android:padding="@dimen/dimen_bill_line"
                     app:srcCompat="@drawable/place" />
 
-                <com.elluminati.eber.components.MyFontAutocompleteView
+                <com.goride.user.components.MyFontAutocompleteView
                     android:id="@+id/acFavAddress"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"

@@ -29,7 +29,7 @@
             android:background="@drawable/blue_circle"
             app:srcCompat="@drawable/card" />
 
-        <com.elluminati.eber.components.MyFontTextView
+        <com.goride.user.components.MyFontTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:alpha="0.7"
@@ -61,7 +61,7 @@
             android:background="@drawable/blue_circle"
             app:srcCompat="@drawable/cash" />
 
-        <com.elluminati.eber.components.MyFontTextView
+        <com.goride.user.components.MyFontTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:alpha="0.7"
@@ -100,7 +100,7 @@
             app:fabSize="mini"
             app:srcCompat="@drawable/card_white" />
 
-        <com.elluminati.eber.components.MyFontTextView
+        <com.goride.user.components.MyFontTextView
             android:id="@+id/tvSelectPayment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

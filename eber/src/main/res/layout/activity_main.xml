@@ -28,7 +28,7 @@
             android:orientation="vertical"
             android:transitionName="@string/transition_string_text">
 
-            <com.elluminati.eber.components.MyFontTextView
+            <com.goride.user.components.MyFontTextView
                 android:id="@+id/ivGetMovingWith"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -44,7 +44,7 @@
                 android:layout_marginEnd="@dimen/activity_horizontal_margin"
                 android:orientation="horizontal">
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:id="@+id/tvCountryCode"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -58,7 +58,7 @@
                     android:textSize="@dimen/size_general"
                     tools:text="--" />
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:id="@+id/etContactNumber"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"

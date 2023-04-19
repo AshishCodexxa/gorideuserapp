@@ -37,7 +37,7 @@
                 android:background="#B2B2B2" />
         </LinearLayout>
 
-        <com.elluminati.eber.components.MyFontAutocompleteView
+        <com.goride.user.components.MyFontAutocompleteView
             android:id="@+id/acStopLocation"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

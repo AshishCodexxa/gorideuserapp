@@ -7,7 +7,7 @@ android {
     buildToolsVersion '30.0.3'
 
     defaultConfig {
-        applicationId "com.quickzet.customer"
+        applicationId "com.goride.user"
         minSdkVersion 21
         targetSdkVersion 33
         versionCode 5
@@ -132,8 +132,8 @@ dependencies {
 //    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
     implementation 'com.github.bumptech.glide:glide:4.13.2'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.13.1'
-    testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'junit:junit:4.13.2'
+//    testImplementation 'junit:junit:4.13.2'
+//    androidTestImplementation 'junit:junit:4.13.2'
     implementation('io.socket:socket.io-client:2.0.1') {
         exclude group: 'org.json', module: 'json'
     }

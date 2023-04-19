@@ -20,7 +20,7 @@
         android:src="@drawable/ellipse" />
 
 
-    <com.elluminati.eber.components.MyFontButton
+    <com.goride.user.components.MyFontButton
         android:id="@+id/btnTripCancel"
         android:layout_width="@dimen/dialog_button_size"
         android:layout_height="wrap_content"

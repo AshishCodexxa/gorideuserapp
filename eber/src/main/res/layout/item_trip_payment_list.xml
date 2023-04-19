@@ -17,7 +17,7 @@
         android:layout_marginEnd="@dimen/dimen_bill_margin_two"
         android:src="@drawable/blue_circle" />
 
-    <com.elluminati.eber.components.MyAppTitleFontTextView
+    <com.goride.user.components.MyAppTitleFontTextView
         android:id="@+id/tvPaymentName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

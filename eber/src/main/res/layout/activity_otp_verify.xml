@@ -29,7 +29,7 @@
                 android:orientation="vertical"
                 android:visibility="visible">
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:id="@+id/tvOtpHint"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -44,7 +44,7 @@
                     android:visibility="visible"
                     tools:text="@string/msg_hint_otp_send_number" />
 
-                <com.elluminati.eber.components.PinView
+                <com.goride.user.components.PinView
                     android:id="@+id/otp_view"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -73,7 +73,7 @@
         android:paddingStart="@dimen/activity_horizontal_margin"
         android:paddingEnd="@dimen/activity_horizontal_margin">
 
-        <com.elluminati.eber.components.MyFontTextView
+        <com.goride.user.components.MyFontTextView
             android:id="@+id/tvResendCodeTime"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -81,7 +81,7 @@
             android:textSize="@dimen/size_general"
             tools:text="Resend code in 00:20" />
 
-        <com.elluminati.eber.components.MyFontTextView
+        <com.goride.user.components.MyFontTextView
             android:id="@+id/tvEditMobileNumber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

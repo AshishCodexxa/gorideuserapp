@@ -64,7 +64,7 @@
                             android:background="#B2B2B2"/>
                     </LinearLayout>
 
-                    <com.elluminati.eber.components.MyFontAutocompleteView
+                    <com.goride.user.components.MyFontAutocompleteView
                         android:id="@+id/acPickupLocation"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -135,7 +135,7 @@
 
 
 
-                <com.elluminati.eber.components.MyFontAutocompleteView
+                <com.goride.user.components.MyFontAutocompleteView
                     android:id="@+id/acDestinationLocation"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -180,7 +180,7 @@
                     android:gravity="center"
                     android:visibility="visible">
 
-                    <com.elluminati.eber.components.MyFontTextView
+                    <com.goride.user.components.MyFontTextView
                         android:id="@+id/tvAddStop"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -220,7 +220,7 @@
                     app:srcCompat="@drawable/home_icon" />
 
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:id="@+id/tvHomeAddress"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -235,7 +235,7 @@
                     android:textSize="@dimen/size_general_small"
                     app:drawableRightCompat="@drawable/plus" />
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:id="@+id/tvDeleteHome"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -261,7 +261,7 @@
                     app:srcCompat="@drawable/work_icon" />
 
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:id="@+id/tvWorkAddress"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -276,7 +276,7 @@
                     android:textSize="@dimen/size_general_small"
                     app:drawableRightCompat="@drawable/plus" />
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:id="@+id/tvDeleteWork"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -316,7 +316,7 @@
                     app:srcCompat="@drawable/place" />
 
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingStart="@dimen/activity_horizontal_margin"
@@ -348,7 +348,7 @@
                     app:srcCompat="@drawable/place" />
 
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingStart="@dimen/activity_horizontal_margin"
@@ -363,7 +363,7 @@
 
     </LinearLayout>
 
-    <com.elluminati.eber.components.MyFontButton
+    <com.goride.user.components.MyFontButton
         android:id="@+id/btnContinue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

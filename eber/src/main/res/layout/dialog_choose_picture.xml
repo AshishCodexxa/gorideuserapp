@@ -31,7 +31,7 @@
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/camera_icon" />
 
-            <com.elluminati.eber.components.MyFontTextView
+            <com.goride.user.components.MyFontTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/text_camera"
@@ -56,7 +56,7 @@
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/picture_frame_icon" />
 
-            <com.elluminati.eber.components.MyFontTextView
+            <com.goride.user.components.MyFontTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/text_gallery"

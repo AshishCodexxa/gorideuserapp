@@ -17,7 +17,7 @@
         android:layout_height="wrap_content" />
 
 
-    <com.elluminati.eber.components.MyFontTextView
+    <com.goride.user.components.MyFontTextView
         android:id="@+id/tvDrawerItemTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

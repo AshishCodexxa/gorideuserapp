@@ -41,7 +41,7 @@
                     android:padding="@dimen/dimen_bill_margin_two"
                     app:srcCompat="@drawable/distance" />
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:id="@+id/tvInvoiceDistance"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
                     android:padding="@dimen/dimen_bill_margin_two"
                     app:srcCompat="@drawable/card" />
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:id="@+id/tvPaymentWith"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -85,7 +85,7 @@
                     android:padding="@dimen/dimen_bill_margin_two"
                     app:srcCompat="@drawable/time" />
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:id="@+id/tvInvoiceTripTime"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -107,7 +107,7 @@
             android:background="@color/color_app_divider_horizontal"
             android:visibility="gone" />
 
-        <com.elluminati.eber.components.MyFontTextView
+        <com.goride.user.components.MyFontTextView
             android:id="@+id/tvInvoiceNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -120,7 +120,7 @@
             android:textSize="@dimen/size_general_small" />
 
 
-        <com.elluminati.eber.components.MyFontTextViewMedium
+        <com.goride.user.components.MyFontTextViewMedium
             android:id="@+id/tvInvoiceTripType"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -148,7 +148,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
-                <com.elluminati.eber.components.MyAppTitleFontTextView
+                <com.goride.user.components.MyAppTitleFontTextView
                     android:id="@+id/tvTotalText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -162,7 +162,7 @@
                     android:visibility="gone"
                     tools:visibility="visible" />
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:id="@+id/tvInvoiceTotal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -174,7 +174,7 @@
                     android:visibility="gone"
                     tools:visibility="visible" />
 
-                <com.elluminati.eber.components.MyFontTextView
+                <com.goride.user.components.MyFontTextView
                     android:id="@+id/tvInvoicePayInfo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -198,7 +198,7 @@
         </androidx.core.widget.NestedScrollView>
 
 
-        <com.elluminati.eber.components.MyFontTextView
+        <com.goride.user.components.MyFontTextView
             android:id="@+id/tvInvoiceMinFareApplied"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

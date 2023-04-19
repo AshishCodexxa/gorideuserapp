@@ -15,7 +15,7 @@
         android:orientation="horizontal"
         android:visibility="visible">
 
-        <com.elluminati.eber.components.MyFontTextView
+        <com.goride.user.components.MyFontTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -48,7 +48,7 @@
                 android:visibility="visible" />
 
 
-            <com.elluminati.eber.components.MyFontTextView
+            <com.goride.user.components.MyFontTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -80,7 +80,7 @@
             </LinearLayout>
 
 
-            <com.elluminati.eber.components.MyFontTextView
+            <com.goride.user.components.MyFontTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/dimen_bill_line"
@@ -112,7 +112,7 @@
                         android:layout_height="wrap_content"
                         android:hint="@string/text_email">
 
-                        <com.elluminati.eber.components.MyFontEdittextView
+                        <com.goride.user.components.MyFontEdittextView
                             android:id="@+id/etSignInEmail"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
@@ -142,7 +142,7 @@
                         android:layout_height="wrap_content"
                         android:hint="@string/text_password">
 
-                        <com.elluminati.eber.components.MyFontEdittextView
+                        <com.goride.user.components.MyFontEdittextView
                             android:id="@+id/etSignInPassword"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -158,7 +158,7 @@
 
                 </LinearLayout>
 
-                <com.elluminati.eber.components.MyAppTitleFontTextView
+                <com.goride.user.components.MyAppTitleFontTextView
                     android:id="@+id/tvForgotPassword"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -170,7 +170,7 @@
                     android:textSize="@dimen/size_general_small" />
 
 
-                <com.elluminati.eber.components.MyFontButton
+                <com.goride.user.components.MyFontButton
                     android:id="@+id/btnSignIn"
                     android:layout_width="@dimen/app_button_size"
                     android:layout_height="wrap_content"
@@ -189,13 +189,13 @@
                     android:gravity="center"
                     android:orientation="horizontal">
 
-                    <com.elluminati.eber.components.MyFontTextView
+                    <com.goride.user.components.MyFontTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/text_account_yet"
                         android:textSize="@dimen/size_general_small" />
 
-                    <com.elluminati.eber.components.MyAppTitleFontTextView
+                    <com.goride.user.components.MyAppTitleFontTextView
                         android:id="@+id/tvGoRegister"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

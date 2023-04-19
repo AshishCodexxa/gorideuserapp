@@ -15,7 +15,7 @@
         android:orientation="horizontal"
         android:padding="@dimen/activity_horizontal_margin">
 
-        <com.elluminati.eber.components.CustomCircularProgressView
+        <com.goride.user.components.CustomCircularProgressView
             android:id="@+id/ivProgressBar"
             android:layout_width="30dp"
             android:layout_height="30dp"
@@ -26,7 +26,7 @@
             app:cpv_indeterminate="true"
             app:cpv_thickness="4dp" />
 
-        <com.elluminati.eber.components.MyTitleFontTextView
+        <com.goride.user.components.MyTitleFontTextView
             android:id="@+id/tvTitleProgress"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

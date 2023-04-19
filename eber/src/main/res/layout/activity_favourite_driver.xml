@@ -26,7 +26,7 @@
 
             </androidx.recyclerview.widget.RecyclerView>
 
-            <com.elluminati.eber.components.MyTitleFontTextView
+            <com.goride.user.components.MyTitleFontTextView
                 android:id="@+id/tvNoFavourite"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -38,7 +38,7 @@
                 android:visibility="visible" />
         </LinearLayout>
 
-        <com.elluminati.eber.components.MyFontButton
+        <com.goride.user.components.MyFontButton
             android:id="@+id/btnAddDriver"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

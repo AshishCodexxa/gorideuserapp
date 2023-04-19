@@ -16,7 +16,7 @@
         android:background="@color/color_app_theme_bg"
         android:orientation="vertical">
 
-        <com.elluminati.eber.components.MyAppTitleFontTextView
+        <com.goride.user.components.MyAppTitleFontTextView
             android:id="@+id/tvDialogMessageEnable"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -28,7 +28,7 @@
             android:textSize="@dimen/size_general" />
 
 
-        <com.elluminati.eber.components.MyFontTextView
+        <com.goride.user.components.MyFontTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -38,7 +38,7 @@
             android:textSize="@dimen/size_general_small" />
 
 
-        <com.elluminati.eber.components.MyFontEdittextView
+        <com.goride.user.components.MyFontEdittextView
             android:id="@+id/etEmailVerify"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
             android:visibility="gone" />
 
 
-        <com.elluminati.eber.components.MyFontEdittextView
+        <com.goride.user.components.MyFontEdittextView
             android:id="@+id/etSMSVerify"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -76,7 +76,7 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <com.elluminati.eber.components.MyFontButton
+            <com.goride.user.components.MyFontButton
                 android:id="@+id/btnVerify"
                 android:layout_width="@dimen/dialog_button_size"
                 android:layout_height="wrap_content"
@@ -86,9 +86,9 @@
                 android:textColor="@color/color_white"
                 android:textSize="@dimen/size_general_small">
 
-            </com.elluminati.eber.components.MyFontButton>
+            </com.goride.user.components.MyFontButton>
 
-            <com.elluminati.eber.components.MyFontButton
+            <com.goride.user.components.MyFontButton
                 android:id="@+id/btnVerifyCancel"
                 android:layout_width="@dimen/dialog_button_size"
                 android:layout_height="wrap_content"

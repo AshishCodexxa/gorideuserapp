@@ -17,7 +17,7 @@
             android:layout_gravity="center"
             android:src="@drawable/loading_circle" />
 
-        <com.elluminati.eber.components.CustomCircularProgressView
+        <com.goride.user.components.CustomCircularProgressView
             android:id="@+id/ivProgressBarTwo"
             android:layout_width="@dimen/size_progress_main"
             android:layout_height="@dimen/size_progress_main"

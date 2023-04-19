@@ -20,7 +20,7 @@
         android:paddingStart="@dimen/activity_horizontal_margin"
         android:paddingEnd="@dimen/activity_horizontal_margin">
 
-        <com.elluminati.eber.components.MyFontEdittextView
+        <com.goride.user.components.MyFontEdittextView
             android:id="@+id/etSearchUser"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
             android:inputType="text"
             app:drawableLeftCompat="@drawable/search_icon" />
 
-        <com.elluminati.eber.components.MyFontButton
+        <com.goride.user.components.MyFontButton
             android:id="@+id/btnSearchUser"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
             android:visibility="visible" />
     </LinearLayout>
 
-    <com.elluminati.eber.components.MyFontTextView
+    <com.goride.user.components.MyFontTextView
         android:id="@+id/tvNote"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
         android:visibility="visible" />
 
-    <com.elluminati.eber.components.MyTitleFontTextView
+    <com.goride.user.components.MyTitleFontTextView
         android:id="@+id/tvNoUser"
         android:layout_width="match_parent"
         android:layout_height="0dp"
