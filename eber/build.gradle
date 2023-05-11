@@ -50,18 +50,18 @@ android {
     productFlavors {
         production {
             flavorDimensions "default"
-            buildConfigField "String", "BASE_URL", '"https://quickzet.com/"'
+            buildConfigField "String", "BASE_URL", '"https://goridecabs.com/"'
             // signingConfig signingConfigs.release
         }
 
         staging {
             flavorDimensions "default"
-            buildConfigField "String", "BASE_URL", '"https://quickzet.com/"'
+            buildConfigField "String", "BASE_URL", '"https://goridecabs.com/"'
         }
 
         developer {
             flavorDimensions "default"
-            buildConfigField "String", "BASE_URL", '"https://quickzet.com/"'
+            buildConfigField "String", "BASE_URL", '"https://goridecabs.com/"'
         }
 
         local {
