@@ -885,7 +885,7 @@ public class MapFragment extends BaseFragments implements OnMapReadyCallback, Ma
             if (pickupMarker != null) {
                 pickupMarker.remove();
             }
-            bitmapDescriptor = BitmapDescriptorFactory.fromBitmap(Utils.drawableToBitmap(ResourcesCompat.getDrawable(drawerActivity.getResources(), R.drawable.user_pin, null)));
+            bitmapDescriptor = BitmapDescriptorFactory.fromBitmap(Utils.drawableToBitmap(ResourcesCompat.getDrawable(drawerActivity.getResources(), R.drawable.ic_source, null)));
 
             pickupMarker = googleMap.addMarker(new MarkerOptions().position(pickUpLatLng).title(drawerActivity.getResources().getString(R.string.text_pick_up)).icon(bitmapDescriptor).anchor(0.5f, 0.5f));
             markerList.add(pickupMarker);

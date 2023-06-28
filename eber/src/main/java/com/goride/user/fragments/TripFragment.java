@@ -496,7 +496,7 @@ public class TripFragment extends BaseFragments implements OnMapReadyCallback, M
                 markerList.add(providerLatLng);
             }
             if (pickUpMarker == null) {
-                bitmapDescriptor = BitmapDescriptorFactory.fromBitmap(Utils.vectorToBitmap(drawerActivity, R.drawable.user_pin));
+                bitmapDescriptor = BitmapDescriptorFactory.fromBitmap(Utils.vectorToBitmap(drawerActivity, R.drawable.ic_source));
                 pickUpMarker = googleMap.addMarker(new MarkerOptions().position(srcLatLng).icon(bitmapDescriptor).anchor(0.5f, 0.5f));
                 isBound = true;
             }
@@ -1470,7 +1470,7 @@ public class TripFragment extends BaseFragments implements OnMapReadyCallback, M
     }
 
     private void setDestinationMarker(LatLng destinationLatLng) {
-        BitmapDescriptor bitmapDescriptor = BitmapDescriptorFactory.fromBitmap(Utils.vectorToBitmap(drawerActivity, R.drawable.destination_pin));
+        BitmapDescriptor bitmapDescriptor = BitmapDescriptorFactory.fromBitmap(Utils.vectorToBitmap(drawerActivity, R.drawable.ic_destination));
 
         destinationMarker = googleMap.addMarker(new MarkerOptions().position(destinationLatLng).icon(bitmapDescriptor).anchor(0.5f, 0.5f));
 
